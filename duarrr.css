@@ -184,6 +184,36 @@ nav a:hover:after {
     height: unset;
 }
 
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .social :nth-child(5) {
+        margin-top: 3%;
+    }
+
+    .avatar {
+        width: 5rem;
+        height: 5rem;
+        margin-right: 4%;
+    }
+
+    .inner-header {
+        height: 40vh;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .content {
+        height: 30vh;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
+
 /* Animation heartBeat */
 @-webkit-keyframes heartBeat {
     0% {
@@ -271,36 +301,6 @@ nav a:hover:after {
 .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
-}
-
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-    .social :nth-child(5) {
-        margin-top: 3%;
-    }
-
-    .avatar {
-        width: 5rem;
-        height: 5rem;
-        margin-right: 4%;
-    }
-
-    .inner-header {
-        height: 40vh;
-    }
-
-    .waves {
-        height: 40px;
-        min-height: 40px;
-    }
-
-    .content {
-        height: 30vh;
-    }
-
-    h1 {
-        font-size: 26px;
-    }
 }
 
 /* Animation FadeInUp */
