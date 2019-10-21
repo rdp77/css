@@ -94,6 +94,7 @@ nav ul {
 }
 
 nav li {
+    padding-right: 45px;
     display: inline-block;
     opacity: 0;
 }
@@ -162,6 +163,7 @@ nav a:hover:after {
 .social a {
     color: #333333;
     display: inline-block;
+    padding: 0 40px 0 40px;
     width: 40px;
     height: 28px;
     -o-transition: all .5s;
@@ -186,8 +188,13 @@ nav a:hover:after {
 
 /*Shrinking for mobile*/
 @media (max-width: 768px) {
-    .social :nth-child(5) {
-        margin-top: 3%;
+    .nav a {
+        padding-right: unset;
+    }
+
+    .social a {
+        position: relative;
+        padding: 12px 50px 12px 50px;
     }
 
     .avatar {
