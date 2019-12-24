@@ -236,6 +236,12 @@ nav a:hover:after {
     }
 
     .social :nth-child(5) {
+        padding: 20px 40% 20px 40%;
+    }
+}
+
+@media (max-height: 568px) {
+    .social :nth-child(5) {
         padding: 5px 40% 5px 40%;
     }
 }
